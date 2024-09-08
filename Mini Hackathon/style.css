@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-img {
+    width: 100px;
+    height: 30px;
+    margin-right: 50px;
+}
+.nav-menu {
+    list-style: none;
+    display: flex;   
+}
+
+.nav-menu li {
+    margin: 0 15px;
+    margin-top: 12px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.quote-btn {
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.quote-btn:hover {
+    background-color: #f0f0f0;
+}
+.hero {  
+    display: flex;  
+    align-items: center;  
+    justify-content: space-between;  
+    padding: 50px 20px;  
+    margin: 50px;
+}  
+
+.hero-content {  
+    max-width: 600px;  
+}  
+
+.hero h1 {  
+    font-size: 70px;  
+    margin-bottom: 20px;  
+}  
+
+.hero p {  
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;  
+    margin-top: 30px;  
+    line-height: 30px;
+
+}  
+
+.consultation-button {  
+    background-color: black;  
+    color: white;  
+    border: none;
+    font-size: medium;  
+    padding: 20px 35px;  
+    border-radius: 10px;
+}  
+
+.hero-image img {  
+    max-width: 100%;  
+    height: auto;  
+}  
+
+footer {  
+    text-align: center;  
+    padding: 20px;  
+    background-color: #f8f8f8; 
+    gap: 30px; 
+}  
+
+.logos img {  
+    margin: 0 10px;  
+}
